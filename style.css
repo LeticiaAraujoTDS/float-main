@@ -2,7 +2,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color: black;
 }
 
 .page {
@@ -13,11 +12,11 @@
 
     min-height: 300px;
 
-    border: solid 2px rgb(255, 255, 255);
+    /* border: solid 2px rgb(255, 0, 0); */
 }
 .menu {
-    height: 100px;
-    background-color: rgb(2, 60, 41);
+    height: 150px;
+    background-color: #0c41aa;
 }
 
 .sidebar {
@@ -36,7 +35,8 @@
 
 .footer {
 
-    clear: both;/* elemento filho para ficar abaixo, sem nada á direita e á esquerda (mas não calcula os tamanhos dos elementos na page) */
+    /* clear: both;elemento filho para ficar abaixo, sem nada á direita e á esquerda (mas não calcula os tamanhos dos elementos na page) */
+    /* somente funciona quando o footer está dentro do elemento pai */
     height: 200px;
-    background-color: rgb(165, 212, 197);
+    background-color: #f10e34;
 }
