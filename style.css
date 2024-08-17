@@ -26,45 +26,74 @@
     background-color: #0c41aa;
 }
 
- .menu-container {
+.menu-container {
     width: 1200px;
     margin: 0 auto;
- }
+}
 
- .menu .column {
+.menu .column {
     width: 25%;
     height: 115px;
 
     margin-top: 20px;
     float: left;
-    border: solid 1px red;
 
- }
+}
 
-  .menu .column.search-bar {
+.menu .column.search-bar {
     width: 50%;
     text-align: center;
+}
 
-
-  }
-
-  .menu .column.search-bar input[type="search"] {
+.menu .column.search-bar input[type="search"] {
     width: 70%;
     padding: 15px 15px;
     border-radius: 2px;
     border: none;
     outline: none;
     margin-top: 30px;
-  }
+}
 
-  .menu .column.search-bar button {
+.menu .column.search-bar button {
     padding: 15px 15px;
     border-radius: 2px;
     border: none;
     outline: none;
     margin-top: 30px;
     background: red;
-  }
+}
+
+.menu .botao {
+
+    width: 40%;
+    float: left;
+    background: #083999;
+    padding: 6px 15px;
+    margin: 30px 10px 10px 10px;
+}
+
+.menu .botao a{
+    font-size: 10px;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.menu .botao:hover {
+    background: #085ce6;
+}
+
+.menu .botao i{
+    background: #085ce6;
+    padding: 5px;
+    border-radius: 50%;
+    font-size: 15px;
+    margin: 10px;
+}
+
+.menu .botao:hover i{
+    background: #083999;
+}
 
 .sidebar {
     width: 270px;
